@@ -1,0 +1,7 @@
+a = [[10,120,30,40],
+    [11,22,33,88],
+    [44,55,66,77]]
+a.sort(key=lambda x:x[1])
+print("Sorted List:",a)
+result=a[0][1]+a[2][2]
+print("Output:",result)
