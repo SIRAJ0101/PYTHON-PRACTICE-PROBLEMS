@@ -1,0 +1,4 @@
+A={10:10,9:20,4:30,7:40,11:77}
+sorted_items=sorted(A.items(),key=lambda item:item[1],reverse=True)
+top_three=dict(sorted_items[:3])
+print(top_three)
