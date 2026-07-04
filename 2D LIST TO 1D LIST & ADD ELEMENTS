@@ -1,0 +1,9 @@
+a = [[10,120,30,40],
+    [11,22,33,88],
+    [44,55,66,77]]
+flattened_list=[element for sublist in a for element in sublist]
+print("Converted 1D List:",flattened_list)
+first_element=flattened_list[0]
+last_element=flattened_list[-1]   
+total_sum=first_element+last_element
+print("Sum:",total_sum)
