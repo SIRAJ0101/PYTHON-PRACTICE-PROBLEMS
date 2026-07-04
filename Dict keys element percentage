@@ -1,0 +1,4 @@
+a=["raju","ram","sam","curran","balu"]
+b=[[22,33,44],[30,40,50],[88,77,66],[45,65,76],[23,54,56]]
+result={name:round(sum(marks)/len(marks)) for name, marks in zip(a,b)}
+print(result)
